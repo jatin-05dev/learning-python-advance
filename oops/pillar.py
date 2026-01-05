@@ -1,4 +1,4 @@
- # class parent:
+# class parent:
 #     city="bhopal"
 #     def car(self):
 #         print("car from parent")
@@ -11,21 +11,21 @@
 
 
 # single level inheritance
-#overiding jisme ek hi method use kra ho use method overiding bolte
+# overiding jisme ek hi method use kra ho use method overiding bolte
 # same method i'n two diffrent clas which have inheritance  
-# class parent:
-#     car="mercedes"
-#     def home(self):
-#             print("home from patrent")
+class parent:
+    car="mercedes"
+    def home(self):
+            print("home from patrent")
 
-# class child (parent):
-#     car="audi"
-#     car2=parent.car
-#     def home(self):
-#         super().home()
-#         print(parent.car)
-#         print(super().car)
-#         print("HOME FROM child")
+class child (parent):
+    car="audi"
+    car2=parent.car
+    def home(self):
+        super().home()
+        print(parent.car)
+        print(super().car)
+        print("HOME FROM child")
         
             
 # obj=child()
@@ -86,9 +86,7 @@
 #         father.home(self)
 
 # class child(mother,father):
-#     pass
-        
-
+#     pass 
 # obj=child()
 # obj.car()
 # obj.home()
