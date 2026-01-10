@@ -7,11 +7,11 @@
 # print(f.encoding)
 # w mode
 # f=open('acpl.html','w')
-
 # print(f.name)
 # print(f.mode)
 # print(f.writable())
 # print(f.readable())
+# f.close()
 # print(f.closed)
 # print(f.encoding)
 # apend mode 
@@ -25,8 +25,6 @@
 # print(f.closed)
 # print(f.encoding)
 
-
-
 # f=open('cbgty.html',"r")
 
 # print(f.name)
@@ -38,7 +36,7 @@
 
 # .method name variable*
 
-# f=open('c2.py','x+')
+# f=open('c20.py','x+')
 
 # print(f.name)
 # print(f.mode)
@@ -65,10 +63,20 @@
 # f.write(dat)
 # f.close()
 
+# f=open('l.txt','w')
+# d="helo jatin"
+# f.write(d)
+
+
+# f=open('lp.txt','r')
+# l=f.read()
+# print(l)
+
+
 # multiline
 
 
-# f=open("m.txt","a+")
+# f=open("lp.txt","a+")
 # da="this is pyhton  " \
 # "python class"
 # f.write(da)
@@ -84,7 +92,7 @@
 # mutipl elines
 
 # coolection
-# f=open("m.txt","a+")
+# f=open("mm.txt","a+")
 # d1="hello \n"
 # d2="jatin \n"
 # d3="how are you\n"
@@ -158,6 +166,7 @@
 #     print(f.tell())
 
 # seek()
+
 # with open("jatin.txt","ab+") as f:
 #     print(f.tell())
 #     data=b'hello friends'
