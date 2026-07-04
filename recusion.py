@@ -46,6 +46,9 @@
 
 # n=int(input("enter a number : "))
 # natural(n)
+  
+
+
 
 # n natural number sum
 # 0 se none 
