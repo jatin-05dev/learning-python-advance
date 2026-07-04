@@ -47,6 +47,10 @@ print("Even Numbers (filter):", even_numbers)
 sum_of_numbers = reduce(lambda a, b: a + b, numbers)
 print("Sum of Numbers (reduce):", sum_of_numbers)
 
+
+sum_of_numbers = reduce(lambda a, b: a + b, numbers)
+print("Sum of Numbers (reduce):", sum_of_numbers)
+
 # ---------------------------
 # 4. Decorators
 # ---------------------------
@@ -74,3 +78,6 @@ def modify_list(lst, func):
 nums = [1, 2, 3, 4]
 print("Original List:", nums)
 print("Modified List (each element squared):", modify_list(nums, lambda x: x**2))
+ 
+sum_of_numbers = reduce(lambda a, b: a + b, numbers)
+print("Sum of Numbers (reduce):", sum_of_numbers)
