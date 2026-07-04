@@ -91,6 +91,32 @@ def deco(fun):
     return inner
 
 
+def deco(fun):
+    def inner(n):
+        print("Odd numbers:")
+        for i in range(1, n+1, 2):
+            print(i)
+        fun(n)
+    return inner
+
+
+def deco(fun):
+    def inner(n):
+        print("Odd numbers:")
+        for i in range(1, n+1, 2):
+            print(i)
+        fun(n)
+    return inner
+
+
+def deco(fun):
+    def inner(n):
+        print("Odd numbers:")
+        for i in range(1, n+1, 2):
+            print(i)
+        fun(n)
+    return inner
+
 @deco
 def even(n):
     for i in range(1,n+1):
